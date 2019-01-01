@@ -1,0 +1,18 @@
+let x:number = 89;
+
+switch (true) {
+    case x <= 50:
+        console.log("Your number is 50 or less!");
+        break;
+    case x >= 50 && x <= 100:
+        console.log("Your number is in the range of 50-100!");
+        break;
+    case x >= 100 && x <= 150:
+        console.log("Your number is in the range of 100-150!");
+        break;
+    case x >= 150:
+        console.log("Your number is 150 or greater!");
+        break;
+    default:
+        break;
+}
