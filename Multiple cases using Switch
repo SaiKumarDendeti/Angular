@@ -16,3 +16,5 @@ switch (true) {
     default:
         break;
 }
+
+//How to define multiple cases for single switch  or define a range of values?
